@@ -3,7 +3,7 @@ import './reset-css.css';
 import './App.css';
 
 function App() {
-  return <Fragment>
+  return <Fragment className="main">
 
   </Fragment>
 }
