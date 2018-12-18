@@ -1,0 +1,17 @@
+@import './reset-css.css';
+@import './fonts.css';
+:root {
+
+    --white: #fff;
+    --black: #000;
+    --greyBlue: #33333a;
+    --pumpkin: #ff5e1b;
+    --brightOrange: #ff6008;
+    --dsullGrey: #666666;
+    --smokyWhite: #f3f3f3;
+    --graphiteGrey: #515356;
+    --gainsborough: #dedede;
+
+    --Helvetica: 'Helvetica';
+
+}
