@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7" height="12" viewBox="0 0 7 12">
+  <defs>
+    <rect id="categories-copy-b" width="1440" height="280"/>
+    <filter id="categories-copy-a" width="109%" height="146.4%" x="-4.5%" y="-19.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-354 -244)">
+    <rect width="1440" height="800" fill="#FFF"/>
+    <g transform="translate(0 120)">
+      <use fill="#000" filter="url(#categories-copy-a)" xlink:href="#categories-copy-b"/>
+      <use fill="#FFF" xlink:href="#categories-copy-b"/>
+      <g stroke="#000" transform="translate(354 70)">
+        <polyline points="-1.5 57.5 3.5 62.5 8.5 57.5" transform="rotate(-90 3.5 60)"/>
+      </g>
+    </g>
+  </g>
+</svg>

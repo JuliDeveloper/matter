@@ -11,7 +11,16 @@ function Header() {
                     <ul className='menu'>
                         <li className='menu-item'>Apparels
                             <ul className='submenu'>
-                                <li className='submenu__item'>pants</li>
+                                <li className='submenu__item'>pants
+                                    <ul className='dropdown-menu'>
+                                        <li className='dropdown-menu__item'>Sideswept Dhoti</li>
+                                        <li className='dropdown-menu__item'>Lounge Longhi</li>
+                                        <li className='dropdown-menu__item'>Side Longhi</li>
+                                        <li className='dropdown-menu__item'>Modern Mope</li>
+                                        <li className='dropdown-menu__item'>Easy Dhoti</li>
+                                        <li className='dropdown-menu__item'>Classic Wideleg</li>
+                                    </ul>
+                                </li>
                                 <li className='submenu__item'>jumpsuits</li>
                                 <li className='submenu__item'>shorts</li>
                                 <li className='submenu__item'>tops</li>
@@ -54,6 +63,7 @@ function Header() {
                     <span className='user'>welcom, Alex</span>
                     <span className='avatar'></span>
                 </div>
+                <button className='login'>login</button>
                 <button className='button search'></button>
                 <button className='button likes'></button>
                 <button className='button bag'></button>
