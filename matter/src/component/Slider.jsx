@@ -9,14 +9,14 @@ function Slider() {
         <div className='slider__list_container'>
             <ul className='slider__list'>
                 <li className='slider__item'>
-                    <h2>Apparels</h2>
-                    <p>White Gold began gaining popularity in the early 1900’s as an alternative to platinum.</p>
-                    <img className='item__image one' src="../images/1.jpg" alt=""/>
+                    <h2 className='slider__title'>Perfume Tips Tricks</h2>
+                    <button className='slider__button'>shop now</button>
+                    <img className='item__image one' src="" alt=""/>
                 </li>
                 <li className='slider__item'>
-                    <h2>Pants</h2>
-                    <p>Apparels</p>
-                    <img className='item__image two' src="../images/2.jpg" alt=""/>
+                    <h2 className='slider__title'>Perfume Tips Tricks</h2>
+                    <button className='slider__button'>shop now</button>
+                    <img className='item__image two' src="" alt=""/>
                 </li>
             </ul>
         </div>

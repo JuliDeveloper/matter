@@ -1,5 +1,5 @@
 .slider {
-    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -11,10 +11,14 @@
 }
 
 .slider__list-container:hover .slider__prev {
-    background:
+    width: 50px;
+    height: 98px;
+    background: url(../images/arrow-left-slider.svg) no-repeat;
 }
 .slider__list-container:hover .slider__next {
-    background:
+    width: 50px;
+    height: 98px;
+    background: url(../images/arrow-right-slider.svg) no-repeat;
 }
 
 .slider__list {
@@ -36,9 +40,9 @@
 }
 
 .one {
-    background: url(../images/1.jpg) no-repeat;
+    background: url(../images/3.jpg) no-repeat;
 }
 
 .two {
-    background: url(../images/2.jpg) no-repeat;
+    background: url(../images/4.jpg) no-repeat;
 }
