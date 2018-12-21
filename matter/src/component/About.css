@@ -1,0 +1,53 @@
+.about {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 62px 150px 59px;
+    background: var(--white);
+}
+
+.title {
+    font-family: var(--Helvetica);
+    font-size: 42px;
+    line-height: 60px;
+    color: var(--greyBlue);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    width: 555px;
+    height: 430px;
+    background: url(../images/03.jpg) no-repeat;
+    background-size: auto;
+    margin: 0 29px 0 0;
+}
+
+.description {
+    max-width: 555px;
+}
+
+.text {
+    font-family: var(--Helvetica);
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--almostBlack);
+}
+
+.subtitle {
+    font-family: var(--Helvetica);
+    font-size: 12px;
+    line-height: 40px;
+    color: var(--greyBlue);
+    margin: 12px 0 0;
+    text-transform: uppercase;
+}
+
+.info {
+    font-family: var(--Helvetica);
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--greyBlue);
+}
