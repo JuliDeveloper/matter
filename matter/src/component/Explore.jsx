@@ -21,7 +21,7 @@ function Explore() {
                         <span className='date'>january 19, 2017</span>
                     </div>
                     <h2 className='small__title'>Kérastase: A Collaboration</h2>
-                    <div className='small__image'></div>
+                    <div className='small__image bag'></div>
                 </div>
                 <div className='box__small'>
                     <div className='denomination'>
@@ -47,7 +47,7 @@ function Explore() {
                         <span className='date'>january 19, 2017</span>
                     </div>
                     <h2 className='small__title'>How To Wear The Lounge Lunghi</h2>
-                    <div className='small__image'></div>
+                    <div className='small__image shirt'></div>
                 </div>
             </div>
         </div>
